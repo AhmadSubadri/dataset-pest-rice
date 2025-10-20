@@ -1,0 +1,13 @@
+train: ./dataset_split/train/images
+val: ./dataset_split/valid/images
+test: ./dataset_split/test/images
+
+nc: 7
+names:
+  - belalang pada tanaman padi
+  - rice bug -hama padi-
+  - rice leaf roller -penggulung daun padi-
+  - rice stem borer -penggerek batang padi-
+  - ulat pada daun padi
+  - walang sangit pada tanaman padi
+  - wereng pada daun padi
